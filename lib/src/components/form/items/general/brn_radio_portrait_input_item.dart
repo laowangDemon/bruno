@@ -175,10 +175,11 @@ class BrnRadioPortraitInputFormItemState
         Container(
           padding: EdgeInsets.only(top: 14, bottom: 14),
           child: BrnRadioButton(
-            child: Text(
+            child: Flexible(fit: FlexFit.tight,
+            child:Text(
               option!,
               style: getOptionTextStyle(option, index),
-            ),
+            )),
             childOnRight: false,
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             mainAxisSize: MainAxisSize.max,
