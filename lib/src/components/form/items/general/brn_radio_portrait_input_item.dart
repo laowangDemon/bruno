@@ -178,6 +178,7 @@ class BrnRadioPortraitInputFormItemState
             child: Flexible(fit: FlexFit.tight,
             child:Text(
               option!,
+              maxLines: null,
               style: getOptionTextStyle(option, index),
             )),
             childOnRight: false,
